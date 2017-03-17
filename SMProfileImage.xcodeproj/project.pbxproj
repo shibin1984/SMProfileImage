@@ -12,6 +12,7 @@
 		346A8EB41E7BAD8600DF0A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346A8EB21E7BAD8600DF0A73 /* Main.storyboard */; };
 		346A8EB61E7BAD8600DF0A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 346A8EB51E7BAD8600DF0A73 /* Assets.xcassets */; };
 		346A8EB91E7BAD8600DF0A73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346A8EB71E7BAD8600DF0A73 /* LaunchScreen.storyboard */; };
+		346A8EC21E7BB23400DF0A73 /* SMProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A8EC11E7BB23400DF0A73 /* SMProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		346A8EB51E7BAD8600DF0A73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		346A8EB81E7BAD8600DF0A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		346A8EBA1E7BAD8600DF0A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		346A8EC11E7BB23400DF0A73 /* SMProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		346A8EAD1E7BAD8600DF0A73 /* SMProfileImage */ = {
 			isa = PBXGroup;
 			children = (
+				346A8EC01E7BB22500DF0A73 /* SMProfileView */,
 				346A8EAE1E7BAD8600DF0A73 /* AppDelegate.swift */,
 				346A8EB01E7BAD8600DF0A73 /* ViewController.swift */,
 				346A8EB21E7BAD8600DF0A73 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				346A8EBA1E7BAD8600DF0A73 /* Info.plist */,
 			);
 			path = SMProfileImage;
+			sourceTree = "<group>";
+		};
+		346A8EC01E7BB22500DF0A73 /* SMProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				346A8EC11E7BB23400DF0A73 /* SMProfileView.swift */,
+			);
+			path = SMProfileView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				346A8EB11E7BAD8600DF0A73 /* ViewController.swift in Sources */,
+				346A8EC21E7BB23400DF0A73 /* SMProfileView.swift in Sources */,
 				346A8EAF1E7BAD8600DF0A73 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
